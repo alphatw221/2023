@@ -1,9 +1,5 @@
 package main // Required for a standalone executable.
 
-import (
-	"fmt"
-)
-
 func selection_sort(slice_address *[]int32) {
 
 	slice := *slice_address
@@ -102,16 +98,5 @@ func merge_sort(unsort_slice []int32) (sort_slice []int32) {
 	}
 
 	return
-
-}
-
-func main() {
-
-	unsort_slice := []int32{1, 2, 3, 7, 45, 9, 5, 23, 86, 31, 478, 125, 46}
-	bubble_sort(&unsort_slice)
-	fmt.Println(unsort_slice)
-
-	sort_slice := merge_sort(unsort_slice)
-	fmt.Println(sort_slice)
 
 }
