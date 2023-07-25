@@ -15,7 +15,7 @@ Example 1:
 Input: s = "the sky is blue"
 Output: "blue is sky the"
 
-Python Submit:
+Python Submission:
     class Solution(object):
         def reverseWords(self, s):
             """
@@ -26,7 +26,7 @@ Python Submit:
             ret.reverse()
             return ' '.join(ret)
 
-Go Submit:
+Go Submission:
     func reverseWords(s string) string {
 
         str1 := strings.Split(s, " ")
@@ -58,7 +58,7 @@ Find two lines that together with the x-axis form a container, such that the con
 Return the maximum amount of water a container can store.
 
 
-Python Submit:
+Python Submission:
     class Solution:
         def maxArea(self, height: List[int]) -> int:
 
@@ -78,7 +78,7 @@ Python Submit:
 
 
 
-Go Submit:
+Go Submission:
     func maxArea(height []int) int {
         l:=0
         r:=len(height)-1
@@ -128,7 +128,7 @@ The input will be generated such that the operation is always possible.
 It can be shown that the resulting string will always be unique.
 
 
-Python Submit:
+Python Submission:
     
 
     class Solution:
@@ -145,7 +145,7 @@ Python Submit:
         
 
 
-Go Submit:
+Go Submission:
     func removeStars(s string) string {
 
         var stack []byte
